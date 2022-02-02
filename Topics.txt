@@ -1,0 +1,8 @@
+debugger in JS file
+
+console.trace
+console.table
+console.time
+console.endTime
+
+break on -> in element tab
