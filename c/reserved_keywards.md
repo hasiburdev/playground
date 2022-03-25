@@ -1,0 +1,25 @@
+# Reserved Keywards in C
+---
+- auto
+- break
+- case
+- char
+- const
+- continue
+- default
+- do  
+- double
+- else
+- float
+- for
+- if 
+- int
+- long
+- return
+- sizeof  
+- short
+- static  
+- switch
+- unsigned
+- void
+- while
