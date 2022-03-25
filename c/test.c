@@ -1,12 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
+int square(int x) {
+    int result = x * x;
+    return result;
+}
 
-{
+int cube(int x) {
+    int result = x * x * x;
+    return 'a';
+}
 
-    int arr[10] = {1,2,3,4,5};
-    printf("%d", arr);
+int main() {
+
+    int r = square(5);
+    int s = cube(5);
+    printf("%d\n", r);
+    printf("%d\n", s);
 
     return 0;
-
 }
