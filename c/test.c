@@ -12,10 +12,13 @@ int cube(int x) {
 
 int main() {
 
-    int r = square(5);
-    int s = cube(5);
-    printf("%d\n", r);
-    printf("%d\n", s);
+    // int r = square(5);
+    // int s = cube(5);
+    // printf("%d\n", r);
+    // printf("%d\n", s);
+
+    int a = 20, b = 30;
+    printf("Division: %f\n", (float) a / b);
 
     return 0;
 }
