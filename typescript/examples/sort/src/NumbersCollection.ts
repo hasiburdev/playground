@@ -1,7 +1,10 @@
 import { Sortable } from "./interfaces";
+import { Sorter } from "./Sorter";
 
-export class NumbersCollection implements Sortable {
-  constructor(public data: number[]) {}
+export class NumbersCollection extends Sorter implements Sortable {
+  constructor(public data: number[]) {
+    super();
+  }
 
   get length(): number {
     return this.data.length;
@@ -10,6 +13,7 @@ export class NumbersCollection implements Sortable {
   compare(leftIndex: number, rightIndex: number) {
     return this.data[leftIndex] > this.data[rightIndex];
   }
+
   swap(leftIndex: number, rightIndex: number) {
     const leftHand = this.data[leftIndex];
     this.data[leftIndex] = this.data[rightIndex];
