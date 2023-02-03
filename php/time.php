@@ -6,4 +6,3 @@ var_dump(microtime(false));
 
 printf("%10.8f", microtime(true));
 
-?>
